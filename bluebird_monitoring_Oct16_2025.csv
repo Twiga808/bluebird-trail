@@ -1,0 +1,41 @@
+﻿ListSchema={"schemaXmlList":["<Field ID=\"{fa564e0f-0c70-4ab9-b863-0177e6ddd247}\" Type=\"Text\" Name=\"Title\" DisplayName=\"Title\" Required=\"TRUE\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"Title\" FromBaseType=\"TRUE\" MaxLength=\"255\" />","<Field ID=\"{67df98f4-9dec-48ff-a553-29bece9c5bf4}\" Type=\"Attachments\" Name=\"Attachments\" DisplayName=\"Attachments\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"Attachments\" FromBaseType=\"TRUE\" />","<Field AppendOnly=\"FALSE\" Description=\"\" DisplayName=\"Fledglings \" Format=\"Dropdown\" IsolateStyles=\"TRUE\" Name=\"Fledglings_x0020_\" Required=\"FALSE\" RichText=\"FALSE\" RichTextMode=\"FullHtml\" Title=\"Fledglings \" Type=\"Note\" ID=\"{214ccb7f-3859-43e3-9fd1-472a45e1b134}\" StaticName=\"Fledglings_x0020_\" />","<Field AppendOnly=\"FALSE\" Description=\"\" DisplayName=\"Notes \" Format=\"Dropdown\" IsolateStyles=\"TRUE\" Name=\"Notes_x0020_\" Required=\"FALSE\" RichText=\"FALSE\" RichTextMode=\"FullHtml\" Title=\"Notes \" Type=\"Note\" ID=\"{b897a6a4-a7c9-440e-9c71-063bcc0516c3}\" StaticName=\"Notes_x0020_\" />","<Field AppendOnly=\"FALSE\" Description=\"\" DisplayName=\"Nestlings \" Format=\"Dropdown\" IsolateStyles=\"TRUE\" Name=\"Nestlings_x0020_\" Required=\"FALSE\" RichText=\"FALSE\" RichTextMode=\"FullHtml\" Title=\"Nestlings \" Type=\"Note\" ID=\"{ea329f72-b802-439b-a785-d2c953847bd1}\" StaticName=\"Nestlings_x0020_\" />","<Field AppendOnly=\"FALSE\" Description=\"\" DisplayName=\"Eggs \" Format=\"Dropdown\" IsolateStyles=\"TRUE\" Name=\"Eggs_x0020_\" Required=\"FALSE\" RichText=\"FALSE\" RichTextMode=\"FullHtml\" Title=\"Eggs \" Type=\"Note\" ID=\"{43f71c6a-a504-449d-ac6f-115a2fd214ca}\" StaticName=\"Eggs_x0020_\" />","<Field AppendOnly=\"FALSE\" Description=\"\" DisplayName=\"Species \" Format=\"Dropdown\" IsolateStyles=\"TRUE\" Name=\"Species_x0020_\" Required=\"FALSE\" RichText=\"FALSE\" RichTextMode=\"FullHtml\" Title=\"Species \" Type=\"Note\" ID=\"{54fe96af-191c-4ac1-ad3f-59d4cb5598c8}\" StaticName=\"Species_x0020_\" />","<Field AppendOnly=\"FALSE\" Description=\"\" DisplayName=\"Fledged \" Format=\"Dropdown\" IsolateStyles=\"TRUE\" Name=\"Fledged_x0020_\" Required=\"FALSE\" RichText=\"FALSE\" RichTextMode=\"FullHtml\" Title=\"Fledged \" Type=\"Note\" ID=\"{6185fff7-4362-4b16-a6e4-7c03d63a14a3}\" StaticName=\"Fledged_x0020_\" />","<Field ID=\"{82642ec8-ef9b-478f-acf9-31f7d45fbc31}\" ReadOnly=\"TRUE\" Type=\"Computed\" Name=\"LinkTitle\" DisplayName=\"Title\" DisplayNameSrcField=\"Title\" ClassInfo=\"Menu\" AuthoringInfo=\"(linked to item with edit menu)\" ListItemMenuAllowed=\"Required\" LinkToItemAllowed=\"Prohibited\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"LinkTitle\" FromBaseType=\"TRUE\"><FieldRefs><FieldRef Name=\"Title\" /><FieldRef Name=\"LinkTitleNoMenu\" /><FieldRef Name=\"_EditMenuTableStart2\" /><FieldRef Name=\"_EditMenuTableEnd\" /></FieldRefs><DisplayPattern><FieldSwitch><Expr><GetVar Name=\"FreeForm\" /></Expr><Case Value=\"TRUE\"><Field Name=\"LinkTitleNoMenu\" /></Case><Default><HTML><![CDATA[<div class=\"ms-vb itx\" onmouseover=\"OnItem(this)\" CTXName=\"ctx]]></HTML><Field Name=\"_EditMenuTableStart2\" /><HTML><![CDATA[\">]]></HTML><Field Name=\"LinkTitleNoMenu\" /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=\"s4-ctx\" onmouseover=\"OnChildItem(this.parentNode); return false;\">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=\"OnChildItem(this.parentNode.parentNode); return false;\" onclick=\"PopMenuFromChevron(event); return false;\" href=\"javascript:;\" title=\"Open Menu\"></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Default></FieldSwitch></DisplayPattern></Field>"]}
+"Title","Species ","Fledglings ","Fledged ","Nestlings ","Eggs ","Notes "
+"Nestbox #27","Bluebird ","0","5",,,"Cleaned out the box "
+"#28","Tree Swallow ",,,"4",,
+"#23","Bluebird ",,"5",,,"Wrens moving in"
+"#24 ","Wren takeover ",,,,"6","Killed off 4 TS eggs "
+"#21 (cornor) ","Tree Swallow ",,"5",,,
+"#20","Empty ",,,,,
+"#10","Tree Swallow ","4",,,,
+"#11","Tree Swallow ",,,,,
+"#12","Bluebird ",,,"5",,"May have fledged "
+"#09","Wren ",,,,"0",
+"#4","Wren ",,,"5",,
+"#3","Tree Swallow ",,,,,
+"#1","Wren",,"8",,,
+"#2","Tree Swallow ",,"5",,,
+"13 ","Bluebird ",,,,"4","No change, abandoned? "
+"#13A","Tree Swallow ",,,"5",,
+"#14","Tree Swallow ",,,"5",,
+"#15","Bluebird ",,"5",,,"I didn't expect to see birds. Saw a blow fly. "
+"#16","Tree Swallow ",,,,,
+"#17","Bluebird ",,"3","2",,
+"#18","Tree Swallow ",,,,,
+"#19","Tree Swallow ",,,,,
+"#29","Bluebird ",,"5",,,"Removed nest "
+"#30","Empty ",,,,,
+"#31","Wren ",,,,"5","Pearl White eggs "
+"#32","Bluebird ",,,,"4",
+"#33","Bluebird ",,,,"4",
+"#34","Tree Swallow ",,,"5",,
+"#35 ","Tree Swallow ",,,,"5",
+"#36","Carolina Wren ",,,,,
+"#41 (corner) ","Empty ",,,,,
+"#42","Tree Swallow ",,,"5",,
+"#43","?? ",,,,,
+"#44",,,,,,
+"#45","Wren (takeover) ",,,,,
+"#40","Bluebird ",,"5",,,
+"#39","Tree Swallow ",,"4",,,
+"#37","Tree Swallow ",,,"5",,
+"#38","Wren ",,,"8",,

@@ -1,0 +1,40 @@
+﻿ListSchema={"schemaXmlList":["<Field ID=\"{fa564e0f-0c70-4ab9-b863-0177e6ddd247}\" Type=\"Text\" Name=\"Title\" DisplayName=\"Title\" Required=\"TRUE\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"Title\" FromBaseType=\"TRUE\" MaxLength=\"255\" />","<Field ID=\"{67df98f4-9dec-48ff-a553-29bece9c5bf4}\" Type=\"Attachments\" Name=\"Attachments\" DisplayName=\"Attachments\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"Attachments\" FromBaseType=\"TRUE\" />","<Field AppendOnly=\"FALSE\" Description=\"\" DisplayName=\"Species \" Format=\"Dropdown\" IsolateStyles=\"TRUE\" Name=\"Species_x0020_\" Required=\"FALSE\" RichText=\"FALSE\" RichTextMode=\"FullHtml\" Title=\"Species \" Type=\"Note\" ID=\"{9bc736c7-f71b-40aa-9471-b7a0be36c8b9}\" StaticName=\"Species_x0020_\" />","<Field CustomFormatter=\"{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;display&quot;:&quot;flex&quot;,&quot;flex-wrap&quot;:&quot;wrap&quot;},&quot;templateId&quot;:&quot;BgColorChoicePill&quot;,&quot;children&quot;:[{&quot;forEach&quot;:&quot;__INTERNAL__ in @currentField&quot;,&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;align-items&quot;:&quot;center&quot;,&quot;border-radius&quot;:&quot;16px&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;box-sizing&quot;:&quot;border-box&quot;,&quot;display&quot;:&quot;flex&quot;,&quot;height&quot;:&quot;24px&quot;,&quot;margin&quot;:&quot;4px 4px 4px 4px&quot;,&quot;overflow&quot;:&quot;hidden&quot;,&quot;padding&quot;:&quot;4px 8px 5px 8px&quot;,&quot;white-space&quot;:&quot;nowrap&quot;},&quot;txtContent&quot;:&quot;[$__INTERNAL__]&quot;,&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operands&quot;:[&quot;[$__INTERNAL__]&quot;,&quot;&quot;],&quot;operator&quot;:&quot;==&quot;},&quot;&quot;,{&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$__INTERNAL__]&quot;,&quot;New&quot;]},&quot;sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont&quot;,{&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$__INTERNAL__]&quot;,&quot;In Progress&quot;]},&quot;sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont&quot;,{&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$__INTERNAL__]&quot;,&quot;Completed&quot;]},&quot;sp-css-backgroundColor-BgGold sp-css-color-GoldFont&quot;,{&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$__INTERNAL__]&quot;,&quot;Eggs&quot;]},&quot;sp-css-backgroundColor-BgRed sp-css-color-WhiteFont&quot;,{&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$__INTERNAL__]&quot;,&quot;Nestlings&quot;]},&quot;sp-css-backgroundColor-BgDustRose sp-css-color-DustRoseFont&quot;,{&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$__INTERNAL__]&quot;,&quot;Nest&quot;]},&quot;sp-css-backgroundColor-BgLightPurple sp-css-color-LightPurpleFont&quot;,&quot;sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary&quot;],&quot;operator&quot;:&quot;:&quot;}],&quot;operator&quot;:&quot;:&quot;}],&quot;operator&quot;:&quot;:&quot;}],&quot;operator&quot;:&quot;:&quot;}],&quot;operator&quot;:&quot;:&quot;}],&quot;operator&quot;:&quot;:&quot;}]}}}]}\" Description=\"\" DisplayName=\"Status \" FillInChoice=\"FALSE\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"Status_x0020_\" Required=\"FALSE\" Title=\"Status \" Type=\"MultiChoice\" ID=\"{ad7771e4-c1e7-4173-b417-6bee1068f30e}\" StaticName=\"Status_x0020_\"><CHOICES><CHOICE>New</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE><CHOICE>Eggs</CHOICE><CHOICE>Nestlings</CHOICE><CHOICE>Nest</CHOICE></CHOICES></Field>","<Field AppendOnly=\"FALSE\" Description=\"\" DisplayName=\"Number \" Format=\"Dropdown\" IsolateStyles=\"TRUE\" Name=\"Number_x0020_\" Required=\"FALSE\" RichText=\"FALSE\" RichTextMode=\"FullHtml\" Title=\"Number \" Type=\"Note\" ID=\"{93039b26-57bd-4a1c-b7a4-eddbc247743d}\" StaticName=\"Number_x0020_\" />","<Field AppendOnly=\"FALSE\" Description=\"\" DisplayName=\"Notes \" Format=\"Dropdown\" IsolateStyles=\"TRUE\" Name=\"Notes_x0020_\" Required=\"FALSE\" RichText=\"FALSE\" RichTextMode=\"FullHtml\" Title=\"Notes \" Type=\"Note\" ID=\"{1b810646-6e3a-41a2-ab69-cd2d51786760}\" StaticName=\"Notes_x0020_\" />","<Field ID=\"{82642ec8-ef9b-478f-acf9-31f7d45fbc31}\" ReadOnly=\"TRUE\" Type=\"Computed\" Name=\"LinkTitle\" DisplayName=\"Title\" DisplayNameSrcField=\"Title\" ClassInfo=\"Menu\" AuthoringInfo=\"(linked to item with edit menu)\" ListItemMenuAllowed=\"Required\" LinkToItemAllowed=\"Prohibited\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"LinkTitle\" FromBaseType=\"TRUE\"><FieldRefs><FieldRef Name=\"Title\" /><FieldRef Name=\"LinkTitleNoMenu\" /><FieldRef Name=\"_EditMenuTableStart2\" /><FieldRef Name=\"_EditMenuTableEnd\" /></FieldRefs><DisplayPattern><FieldSwitch><Expr><GetVar Name=\"FreeForm\" /></Expr><Case Value=\"TRUE\"><Field Name=\"LinkTitleNoMenu\" /></Case><Default><HTML><![CDATA[<div class=\"ms-vb itx\" onmouseover=\"OnItem(this)\" CTXName=\"ctx]]></HTML><Field Name=\"_EditMenuTableStart2\" /><HTML><![CDATA[\">]]></HTML><Field Name=\"LinkTitleNoMenu\" /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=\"s4-ctx\" onmouseover=\"OnChildItem(this.parentNode); return false;\">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=\"OnChildItem(this.parentNode.parentNode); return false;\" onclick=\"PopMenuFromChevron(event); return false;\" href=\"javascript:;\" title=\"Open Menu\"></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Default></FieldSwitch></DisplayPattern></Field>"]}
+"Title","Species ","Status ","Number ","Notes "
+"#28","Ween","[""Nestlings""]","6",
+"Status ",,,,
+"#27","Tree Swallow ","[""Nestlings""]","5",
+"#24","Wren ","[""Nestlings""]","6",
+"#23","Bluebird ","[""Completed""]","5",
+"#22 ","Tree Swallow ","[""Completed""]","5",
+"#21","Bluebird ","[""Nestlings""]","5",
+"#25 ","Empty ",,,
+"#26","Bluebird ","[""Nestlings""]","5",
+"#29","Bluebird?? ","[""Nest""]",,"Very symmetrical nest made out of both pine needles and these black all used the same stuff quite beautiful I should have taken a picture "
+"#30","Bluebird ","[""Nestlings""]","5",
+"#31","Wren ","[""Nestlings""]","8",
+"#32","Bluebird ","[""Completed""]","5",
+"#33","Bluebird ","[""Completed""]","5",
+"#34","Tree Swallow ","[""Completed""]","5",
+"#35 ","Tree Swallow ","[""Nestlings""]","5",
+"#36","Carolina Wren ","[""Completed""]","8",
+"#41 ","Bluebird ","[""Nest""]","0 eggs ",
+"#42 ","Wren ","[""Nestlings""]","4",
+"#43","Bluebird?? ","[""Nest""]",,
+"#44","Empty ",,,"Cleaned out next "
+"#45","Empty ",,,"Cleaned out nest "
+"#40","Bluebird ","[""Completed""]",,"Removed nest "
+"#39","Tree Swallow? ",,,"Removed nest "
+"#37","Look it up","[""Nest""]",,"I should have probably removed it "
+"#38","Wrens ","[""Nestlings""]","6","Only saw down not nestlings "
+"#10 ","Tree Swallow ","[""Eggs""]","1",
+"#11 ","Tree Swallow ","[""Completed""]",,"Left nest in, just in case it looked in good shape "
+"#12","Bluebird ","[""Completed""]",,
+"#9","Wren ","[""Completed""]",,"I cleaned out the nest from the nest box "
+"#13 ","?? ","[""Completed""]",,"Removed nest "
+"13A","Tree Swallow ","[""Eggs""]","7","Used flashlight and Mirror to count them all "
+"#14","Empty ",,,
+"#15","Bluebird ","[""Nestlings""]","3","Ants, spread cinnamon "
+"#16","?? ",,,
+"#17 ","Tree Swallow ","[""Completed""]",,"I cleaned out the nest and there was one dead Bluebird in it "
+"#18","Tree Swallow ","[""Completed"",""Eggs""]","3 eggs ",
+"#19","Tree Swallow ","[""Completed"",""Eggs""]","1 egg",
